@@ -17,4 +17,10 @@ public enum ConverterType {
 	public String toString(){
 		return this.value;
 	}
+	
+	public static ConverterType getTypeValue(String value){
+		for(ConverterType type:values())
+			if(type.getValue().equalsIgnoreCase(value)) return type;
+		 throw new IllegalArgumentException();	
+	}
 }
