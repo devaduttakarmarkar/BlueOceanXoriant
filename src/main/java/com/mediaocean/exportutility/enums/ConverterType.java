@@ -1,7 +1,7 @@
 package com.mediaocean.exportutility.enums;
 
 public enum ConverterType {
-	XMLType1("xmlType1"),XMLType2("xmlType2");
+	XMLTYPE1("xmlType1"),XMLTYPE2("xmlType2");
 	
 	private final String value;
 	
